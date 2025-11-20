@@ -1,0 +1,33 @@
+End to End Data Science Project
+
+  1. Git and GitHub repository
+  2. Project set up
+  3. Requirement.txt
+
+  Creating a new environment
+  ----------------------------
+  1. Create a folder name 'venv' and install all packages, libraries etc. 
+      - install anaconda in your system.
+      - Add the below given paths to the environment variables - System variables section. 
+         - C:\Users\HP\anaconda3
+         - C:\Users\HP\anaconda3\Scripts
+         - $ conda --version 
+      - To create a environment with name 'venv', use the below command:- 
+         - $ conda create -p venv python==3.12.2 
+      - To activate our environment, use the following commands:- 
+         - $ conda init
+         - $ conda activate  - Activating our environment 
+
+2. Create new repository in github and give a connection from vscode to github with git commands.
+3. Create a .gitignore file in github and pull it to our project. 
+4. Create a requirements.txt file and add the packages to it. 
+5. Run requirements.txt file with the following command:- 
+    - $ pip install -r requirements.txt
+6. Create a setup.py file and add the code to it.
+7. Run the setup.py file with the following command:-
+    - $ python setup.py install 
+8. We can run setup.py file in another way. 
+9. Add '-e.' in requirements.txt file and save it. 
+10. Add 'if' code in 'setup.py' file.
+11. Now instead of running 'setup.py' file, Run 'requirements.txt' file as follows:-
+    - $ pip install -r requirements.txt 

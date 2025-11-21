@@ -31,3 +31,9 @@ End to End Data Science Project
 10. Add 'if' code in 'setup.py' file.
 11. Now instead of running 'setup.py' file, Run 'requirements.txt' file as follows:-
     - $ pip install -r requirements.txt 
+
+
+DVC:- Data Version Control
+
+1. dvc init
+2. 
